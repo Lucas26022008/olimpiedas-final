@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surf Olimpíadas</title>
+    <link rel="icon" type="image/webp" href="img/kaique_surf_icon.webp">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        header {
+            background-image: url('img/kaique_surf1.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .header-content {
+            text-align: center;
+            color: white;
+        }
+
+        h1 {
+            font-size: 4rem;
+            margin: 0;
+            font-weight: 300;
+        }
+
+        .icon {
+            width: 80px;
+            margin-bottom: 10px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .info-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .info-box {
+            flex: 1;
+            min-width: 300px;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .pictogram {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 30px;
+        }
+
+        .pictogram:hover {
+            color: rgb(0, 0, 0);
+            transition: 300ms;
+            filter: brightness(80%);
+        }
+
+        footer {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer-content h2 {
+            font-size: 2rem;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        b {
+            font-weight: bold;
+        }
+
+        .info-box {
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .info-box h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+        .medalhistas {
+            margin-bottom: 20px;
+        }
+
+        .medalhistas h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+        .medalhistas ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .medalhistas ul li {
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+        }
+
+        .medalhistas ul li strong {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section class="header-content">
+            <a href="index.html"><img src="img/Fut-icon.png" alt="ícone Olimpíadas" class="icon"></a>
+            <h1>Surfe Olímpico</h1>
+        </section>
+    </header>
+
+    <main>
+        <section class="info-section">
+            <div class="info-box">
+                <h2>Resumo das Regras</h2>
+                <p>Os surfistas realizam manobras e truques em uma onda e são avaliados por cinco juízes com base na
+                    variedade, tipo e dificuldade da apresentação. Os surfistas também são julgados pela velocidade,
+                    força e fluxo (a forma como ele conecta perfeitamente seus movimentos de uma manobra a outra). As
+                    shortboards (pranchas curtas) são as pranchas de surfe escolhidas para os Jogos Olímpicos. Menores
+                    do que as longboards, elas são mais rápidas e manipuláveis, o que as tornam ideais para realizar
+                    manobras espetaculares.</p>
+            </div>
+            <div class="info-box">
+                <h2>História Olímpica</h2>
+                <p>Na década de 1920, fãs e atletas de surfe, incluindo o havaiano e três vezes campeão olímpico da
+                    natação estilo livre Duke Kahanamoku, começaram a fazer campanha para que o esporte fosse adicionado
+                    ao programa Olímpico. Muitos anos depois, o surfe finalmente entrou no programa Olímpico dos Jogos
+                    de Tóquio 2020. Ele também estará presente nos Jogos de Paris 2024; o lendário local para o surfe,
+                    Teahupo'o, no Tahiti, foi escolhido como sede dos eventos do esporte.</p>
+            </div>
+            <div class="info-box">
+                <h2>Medalhistas</h2>
+                <div class="medalists">
+                    <h3>Masculino</h3>
+                    <ul>
+                        <li><strong>Ouro:</strong> Kanoa Igarashi (Japão)</li>
+                        <li><strong>Prata:</strong> Gabriel Medina (Brasil)</li>
+                        <li><strong>Bronze:</strong> Italo Ferreira (Brasil)</li>
+                    </ul>
+                </div>
+                <div class="medalhistas">
+                    <h3>Feminino</h3>
+                    <ul>
+                        <li><strong>Ouro:</strong> Carissa Moore (Havai)</li>
+                        <li><strong>Prata:</strong> Tyler Wright (Austrália)</li>
+                        <li><strong>Bronze:</strong> Sally Fitzgibbons (Austrália)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <h2>O Pictograma</h2>
+                <img src="img/kaique_pictograma.avif" alt="Pictograma Olimpíadas" class="pictogram">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="footer-content">
+            <h2>Olimpíadas<i>Tec</i></h2>
+            <ul>
+                <li><b>Desenvolvido por:</b> Kaique Gabriel</li>
+                <li><b>Telefone:</b> +89 (13) 4002-8922</li>
+                <li><b>Email:</b> kaiquegabriel@colegio.com</li>
+            </ul>
+        </section>
+    </footer>
+</body>
+
+</html>
